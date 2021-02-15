@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	<link rel="stylesheet" href="estilos.css">
+	<title>Portafolio</title>
+</head>
+
+<body>
+
+	<div class="contenedor">
+		<header>
+			<div class="logo">
+				<h1>Futbol Europeo</h1>
+				<p>Grandes ligas Europeas</p>
+			</div>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Alemania</a>
+				<a href="#">España</a>
+				<a href="#">Italia</a>
+				<a href="#">Inglaterra</a>
+			</div>
+		</header>
+		<section class="grid" id="grid">
+			<div class="item" data-categoria="españa" data-etiquetas="españa madrid barcelona real "
+				data-descripcion="Real Madrid FC">
+				<div class="item-contenido">
+					<img src="img/real.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="inglaterra" data-etiquetas="inglaterra premier league"
+				data-descripcion="Liverpool FC">
+				<div class="item-contenido">
+					<img src="img/liv.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="alemania" data-etiquetas="alemania bayer borusia"
+				data-descripcion="bayer munich">
+				<div class="item-contenido">
+					<img src="img/mun.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="italia" data-etiquetas="italia juventus inter napoli "
+				data-descripcion="Juventus">
+				<div class="item-contenido">
+					<img src="img/juv.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="españa" data-etiquetas="españa madrid barcelona real "
+				data-descripcion="Barcelona">
+				<div class="item-contenido">
+					<img src="img/bar.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="inglaterra" data-etiquetas="inglaterra premier league"
+				data-descripcion="Manchester United">
+				<div class="item-contenido">
+					<img src="img/united.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="alemania" data-etiquetas="alemania bayer borusia"
+				data-descripcion="borussia dortmund">
+				<div class="item-contenido">
+					<img src="img/dor.jpg" alt="">
+				</div>
+			</div>
+
+			<div class="item" data-categoria="italia" data-etiquetas="italia juventus inter Napoli"
+				data-descripcion="Napoli">
+				<div class="item-contenido">
+					<img src="img/nap.jpg" alt="">
+				</div>
+			</div>
+			<div class="item" data-categoria="italia" data-etiquetas="italia juventus inter napoli"
+				data-descripcion="Inter">
+				<div class="item-contenido">
+					<img src="img/int.jpg" alt="">
+				</div>
+			</div>
+		</section>
+
+		
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+		
+	</div>
+
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
